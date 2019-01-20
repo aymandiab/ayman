@@ -6,3 +6,10 @@ cd /opt/odoo/odoo
 
 ./odoo-bin
 -------------------
+sudo apt-get update –fix-missing. and.
+sudo dpkg –configure -a. and.
+sudo apt-get install -f. the problem of a broken package still exist the solution is to edit the dpkg status file manually. ...
+Unlock the dpkg – (message /var/lib/dpkg/lock)
+sudo fuser -vki /var/lib/dpkg/lock.
+sudo dpkg –configure -a. For 12.04 and newer:
+-------------------------------------

@@ -1,0 +1,8 @@
+Start apache command: $ sudo systemctl start apache2.service.
+stop apache command : $ sudo systemctl stop apache2.service.
+restart apache command: $ sudo systemctl restart apache2.service.
+----------
+cd /opt/odoo/odoo
+
+./odoo-bin
+-------------------
